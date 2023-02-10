@@ -1,0 +1,434 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+#spanId {
+    color: rgb(37, 177, 215);
+}
+
+#first-heading {
+    padding-left: 120px;
+}
+
+
+
+#OuterMost-div {
+    font-family: sans-serif;
+    z-index: 0;
+}
+
+#inner-div-after-heading {
+    background-color: #EDEDED;
+}
+
+#plus_symbol {
+    font-size: 50px;
+    color: #00A5EC;
+    padding-left: 1050px;
+    display: inline;
+}
+
+#back-symbol {
+    font-size: 50px;
+    color: aqua;
+    padding-left: 600px;
+
+
+}
+
+#add-new-task {
+    font-size: 15px;
+}
+
+#cotainer-first {
+    display: flex;
+    background-color: #EDEDED;
+    justify-content: center; 
+    flex-wrap: nowrap;
+
+
+}
+
+.container-first-items {
+    height: 280px;
+    width: 350px;
+    border-radius: 12px;
+    margin: 30px;
+    background-color: aliceblue;
+}
+
+.third-page-centerd-div {
+    height: 280px;
+    width: 30%;
+    border-radius: 12px;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+
+.paddingClassforThirdPage {
+    padding: 10px 23px;
+}
+
+
+#cotainer-two {
+    display: flex;
+    background-color: #EDEDED;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.container-two-items {
+    height: 280px;
+    width: 350px;
+    margin: 30px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+
+#third-page-centerd-div-id:hover {
+    box-shadow: 1px 2px 6px rgb(57, 56, 56), -1px 2px 6px rgb(57, 56, 56), 0 -1px 6px rgb(57, 56, 56);
+}
+
+
+.container-first-items:hover {
+    box-shadow: 1px 2px 6px rgb(57, 56, 56), -1px 2px 6px rgb(57, 56, 56), 0 -1px 6px rgb(57, 56, 56);
+}
+
+.container-two-items:hover {
+    box-shadow: 1px 2px 6px rgb(57, 56, 56), -1px 2px 6px rgb(57, 56, 56), 0 -1px 6px rgb(57, 56, 56);
+}
+
+.checkbox-class {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    opacity: 0.4;
+}
+
+.striked-text {
+    text-decoration: line-through;
+}
+
+.cards-headings {
+    padding-left: 25px;
+    color: #00A5EC;
+}
+
+#TripToParisAnchorTag {
+    text-decoration: none;
+
+}
+
+#centeredDivSecondPage {
+    z-index: 2;
+    height: 400px;
+    max-height: 400px;
+    width: 400px;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid red;
+
+}
+
+/* 
+#innerDivForThirdPage{
+    
+} */
+
+
+.toBeBlurred {
+    filter: blur(1.7px);
+
+}
+
+#div2-secondPage {
+    height: 250px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: 5 px solid black;
+    box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+    border-radius: 12px;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    right: 30%;
+}
+
+
+#div2-fourthPage {
+    height: 250px;
+    width: 380px;
+    background-color: whitesmoke;
+    border: 5 px solid black;
+    box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+    border-radius: 12px;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    right: 30%;
+}
+
+
+.margin-left-container-two-items {
+    margin-left: 144px
+}
+
+
+
+#Add_task_PageTwo{
+    position: absolute;
+    color: white;
+    background-color: rgb(44, 93, 192);
+    height: 15%;
+    width: 20%;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 2% 4%; 
+    left: 51%;
+    top: 60%;
+    font-weight: 600;
+    
+    
+}
+
+#thirdPagePlusSymbol{
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    background-color:#00A5EC;
+    height: 8%;
+    width: 8%;
+    border-radius:50%
+}
+
+#thirdPageAddNewTask{
+    position: absolute;
+    right: 0%;
+    top: 13.5%;
+}
+
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    #first-heading {
+        margin-left: 0px;
+        padding-left: 0px;
+
+    }
+
+    #plus_symbol {
+        text-align: center;
+        padding: 0;
+        margin-left: 50vw;
+    }
+
+    #add-new-task {
+        display: none;
+        visibility: hidden;
+    }
+
+    #cotainer-first,
+    #cotainer-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margin-left-container-two-items {
+        margin: auto
+    }
+
+    .container-two-items {
+        margin: 30;
+    }
+
+
+    .container-first-items {
+        /* height: 30%; */
+        width: 70%;
+        border-radius: 3%;
+        margin: 10%;
+        background-color: aliceblue;
+    }
+
+    .container-two-items {
+        /* height: 30%; */
+        width: 70%;
+        border-radius: 3%;
+        margin: 7%;
+        background-color: aliceblue;
+    }
+
+    #anchortag_TripToParis {
+        display: inline;
+        height: 20%;
+        width: 70%;
+        border-radius: 3%;
+        margin: 10%;
+        margin-top:  6%;
+        /* padding: 0%; */
+        background-color: aliceblue;
+        
+
+    }
+
+
+    #div2-secondPage {
+        height: 30vh;
+        width: 60vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 31vh;
+        left: 20vw;         
+      
+    }
+    
+
+    #Add_task_PageTwo{
+        position: absolute;
+        color: white;
+        background-color: rgb(44, 93, 192);
+        /* height: 3.9vh;
+         */
+         height: 16%;
+        width: 25%;
+        text-align: center;
+        border-radius: 1vw;
+        /* padding: 0.7vh 4vw; */
+        left: 56%;
+        top: 73%;
+        /* bottom: 20%; */
+        font-size: 12px;
+       
+        
+        
+    }
+    
+    #thirdPageAddNewTask{
+        display: none;
+        visibility: hidden;
+    }
+
+    #div2-fourthPage {
+        /* height: 40vh;
+        width: 70vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 25%;
+        left:3%; */
+
+
+        height: 30vh;
+        width: 60vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 31vh;
+        left: 8vw;   
+        
+    }
+    
+    #fourthPageAddItem{
+        position: absolute;
+        right: 10%;
+        background-color: rgb(69, 69, 207);
+        color: white;
+        padding: 5% 2%;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width:200px) and (max-width:450px){
+
+    #thirdPagePlusSymbol{
+        position: absolute;
+        right: 40%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 4em;
+        text-decoration: none;
+        color: white;
+        background-color:#00A5EC;
+        height: 8%;
+        width: 10%;
+        border-radius:50%
+    }
+
+}
+
+#hrThirdPage
+{
+    text-decoration: none;
+    background-color: rgb(143, 135, 135);
+    text-decoration-line: none;
+    color:rgb(217, 206, 206);
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+}
+
+
+@media screen and (min-width:150px) and (max-width:768px){
+    #thirdPagePlusSymbol{
+        position: absolute;
+        right: 40%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2.5em;
+        text-decoration: none;
+        color: white;
+        background-color:#00A5EC;
+        height: 8%;
+        width: 10%;
+        border-radius:50%
+    }
+
+    #thirdPagePlusSymbol2{
+        position: absolute;
+        right: 40%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 5vw;
+        text-decoration: none;
+        color: white;
+        background-color:#00A5EC;
+        height: 5vh;
+        width: 10vw;
+        border-radius:50%
+    }
+
+    .third-page-centerd-div {
+        width: 98%;
+        border-radius: 12px;
+        background-color: aliceblue;
+    
+    }
+
+    #hrThirdPage{
+        width: 100%;
+        text-decoration: none;
+        background-color: rgb(143, 135, 135);
+        margin: 2% 0%;
+        padding: 0;
+        
+    }
+}
